@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User CMS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="App">
+      <header>
+        <h1 class="brand" >Nelly Sugu</h1>
+        <section>
+            <i onclick="linkedIn()" class="fab fa-linkedin-in icon"></i>
+            <i onclick="gitHub()" class="fab fa-github icon"></i>
+            <i onclick="stackOverFlow()" class="fab fa-stack-overflow icon"></i>
+        </section>
+      </header>
+      <div class="container">
+        <div class="loader-container">
+          <i class="fas fa-spinner"></i>
+        </div>
+      </div>
+      <div class="overlay">
+        <i onclick="toggleOverlay()" class="closer fas fa-times"></i>
+        <div class="parent">
+          <header class="userContent">
+            <i class="far fa-user" ></i>
+            <div>
+              <h3 class="userNames" >Christophe Kwizera</h3>
+              <h4 class="userEmail" >Christophekwizera1@gmail.com</h4>
+            </div>
+          </header>
+          <div class="container">
+            <div class="loader-container">
+              <i class="fas fa-spinner"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
